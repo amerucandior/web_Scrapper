@@ -1,0 +1,22 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrap.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon scrap.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "csv-writer": "^1.6.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "puppeteer-core": "^24.29.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
